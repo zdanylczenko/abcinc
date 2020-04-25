@@ -59,7 +59,7 @@ nav {
 	flex: 1;
 	text-align: center;
 	padding: 20px 20px;
-	margin: 50px 0px 20px 0px;
+	margin: 50px 200px 20px 200px;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 	transition: all 800ms;
 }
