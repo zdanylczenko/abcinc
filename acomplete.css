@@ -1,0 +1,52 @@
+body {
+	font-family: 'Dosis', sans-serif;
+    background-image: url(simpletech.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+	background-color: rgba(252, 252, 252, .6);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	border-radius: 5px;
+}
+
+.btn-outline-success {
+	color: #6A6B71;
+	border-color: #6A6B71;
+}
+
+.btn-outline-success:hover {
+	background-color: #6A6B71;
+	border: none;
+}
+
+.container2 {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 40px;
+}
+
+.boxmodel2 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	border: none;
+	border-radius: 5px 50px;
+	background-color: rgba(252, 252, 252, .7);
+	flex: 1;
+	padding: 20px 30px;
+	margin: 0px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+p span {
+	display: block;
+}

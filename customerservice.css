@@ -1,0 +1,95 @@
+body {
+	font-family: 'Dosis', sans-serif;
+    background-image: url(simpletech.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+	background-color: rgba(252, 252, 252, .6);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	border-radius: 5px;
+}
+
+.btn-outline-success {
+	color: #6A6B71;
+	border-color: #6A6B71;
+}
+
+.btn-outline-success:hover {
+	background-color: #6A6B71;
+	border: none;
+}
+
+.container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 30px 0px 10px 0px;
+}
+
+.boxmodel2 {
+	display: flex;
+	justify-content: center;
+	line-height: .7;
+	border: none;
+	border-radius: 5px;
+	width: 700px;
+	background-color: rgba(252, 252, 252, .6);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.container3 {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+}
+
+.boxmodel3 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 50%;
+	border: none;
+	border-radius: 5px 50px;
+	background-color: rgba(252, 252, 252, .7);
+	padding: 20px 20px;
+	margin: 50px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	transition: all 800ms;
+}
+
+.boxmodel3:hover {
+	transform: scale(1.1);
+}
+
+.boxmodel4 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	line-height: 30px;
+	border: none;
+	border-radius: 5px 50px;
+	background-color: rgba(252, 252, 252, .7);
+	flex: 1;
+	padding: 20px 20px;
+	margin: 50px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	transition: all 800ms;
+}
+
+.boxmodel4:hover {
+	transform: scale(1.1);
+}
+
+p span {
+	display: block;
+}

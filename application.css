@@ -1,0 +1,93 @@
+body {
+	font-family: 'Dosis', sans-serif;
+    background-image: url(simpletech.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+	background-color: rgba(252, 252, 252, .6);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	border-radius: 5px;
+}
+
+.btn-outline-success {
+	color: #6A6B71;
+	border-color: #6A6B71;
+}
+
+.btn-outline-success:hover {
+	background-color: #6A6B71;
+	border: none;
+}
+
+.container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 30px 0px 10px 0px;
+}
+
+.boxmodel2 {
+	display: flex;
+	justify-content: center;
+	line-height: .7;
+	border: none;
+	border-radius: 5px;
+	width: 700px;
+	background-color: rgba(252, 252, 252, .6);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.container3 {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 40px;
+}
+
+.boxmodel3 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: none;
+	border-radius: 5px 50px;
+	background-color: rgba(252, 252, 252, .7);
+	flex: 1;
+	padding: 20px 20px;
+	margin: 0px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+span {
+	display: block;
+}
+
+#submit {
+	color: #6A6B71;
+	border-radius: 50px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+#submit:hover {
+	color: white;
+	background-color: #6A6B71;
+	border-width: 4px;
+}
+
+#reset {
+	color: #6A6B71;
+	border-radius: 50px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+#reset:hover {
+	color: white;
+	background-color: #6A6B71;
+	border-width: 4px;
+}
