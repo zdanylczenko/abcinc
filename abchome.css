@@ -1,23 +1,11 @@
-html::before {
-    content: ' ';
-    display: block;
+body {
     font-family: 'Dosis', sans-serif;
     background-image: url(simpletech.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    z-index: -10;
-/*     background-attachment: fixed;
+    background-attachment: fixed;
     height: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
 }
 
 nav {
